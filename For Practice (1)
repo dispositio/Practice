@@ -1,0 +1,10 @@
+int main()
+{
+  int will;
+  printf("몇까지 출력하고 싶으세요? : \n");
+  scanf("%d" , &will);
+ for (int a = 1; a <= will; a++)
+  {
+    printf ("%d\n", a);
+  }
+}
